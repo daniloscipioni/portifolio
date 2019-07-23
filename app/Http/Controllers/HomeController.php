@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('insert');
+        return view('layout.sidebar');
     }
 
     /**
@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function create()
     {
-        return view('layout.principal');
+        return view('layout.sidebar');
     }
 
     /**
