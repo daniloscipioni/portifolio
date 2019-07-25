@@ -23,6 +23,10 @@ body {
     font: inherit;
 }
 
+.content {
+    margin-left: 400px;
+}
+
 a {
     color: inherit;
     cursor: pointer;
@@ -119,11 +123,11 @@ a:hover {
     color: #2f2b3e;
     font-size: 2rem;
     height: 100vh;
-    left: -30%;
+    left: -350px;
     padding: 6rem 2rem 2rem 2rem;
     position: fixed;
     top: 0;
-    width: 30%;
+    width: 350px;
     z-index: 1;
 }
 
