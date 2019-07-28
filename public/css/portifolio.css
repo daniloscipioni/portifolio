@@ -12,7 +12,7 @@
 }
 
 html {
-    background: #5f73a3;
+    background: rgba(38, 46, 63, 1);
     color: white;
     font: normal 10px/1.42857 "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
@@ -21,10 +21,6 @@ body {
     background: none;
     color: inherit;
     font: inherit;
-}
-
-.content {
-    margin-left: 400px;
 }
 
 a {
@@ -92,6 +88,15 @@ a:hover {
     background: transparent;
 }
 
+.content {
+    margin-left: 400px;
+}
+
+content1 {
+    
+    margin-left: 90px;
+}
+
 .nav-toggle.expanded .nav-toggle-bar::after,
 .nav-toggle.expanded .nav-toggle-bar::before {
     background: white;
@@ -119,7 +124,7 @@ a:hover {
     -ms-transition: left 0.5s ease;
     -o-transition: left 0.5s ease;
     transition: left 0.5s ease;
-    background: #bcc1c1;
+    background: url('../images/sidebar_background.png') no-repeat center/100% 100%;
     color: #2f2b3e;
     font-size: 2rem;
     height: 100vh;
@@ -129,6 +134,28 @@ a:hover {
     top: 0;
     width: 350px;
     z-index: 1;
+}
+
+.nav-content{
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -ms-transition: left 0.5s ease;
+    -o-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+    background: rgba(38, 46, 63, 1);
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 2rem;
+    /* height: 100%; */
+    padding: 6rem 2rem 2rem 2rem;
+    position: absolute;
+    top: 0;
+    left: 350px;
+    z-index: 1;
+}
+
+.nav-content.expanded {
+    left: 0;
+    width: 100%;
 }
 
 .nav.expanded {

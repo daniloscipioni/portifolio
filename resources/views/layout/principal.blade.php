@@ -13,11 +13,11 @@
 
 <body>
   
-    <div class="nav-toggle expanded">
+    <div class="nav-toggle">
     <div class="nav-toggle-bar"></div>
 </div>
 
-<nav class="nav expanded">
+<nav class="nav">
     <div class="circle"></div>
     <ul>
         <li><a href="#" >Sobre Mim</a></li>
