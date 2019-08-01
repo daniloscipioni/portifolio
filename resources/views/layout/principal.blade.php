@@ -20,9 +20,9 @@
 <nav class="nav">
     <div class="circle"></div>
     <ul>
-        <li><a href="#" >Sobre Mim</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="about" >Sobre Mim</a></li>
+        <li><a href="about/create">Projetos</a></li>
+        <li><a href="about/store">Contato</a></li>
     </ul>
 </nav>
    
