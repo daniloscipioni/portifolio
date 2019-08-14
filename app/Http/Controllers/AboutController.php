@@ -15,4 +15,15 @@ class AboutController extends Controller
     {
         return view('about.home');
     }
+
+    public function projects()
+    {
+        return view('about.projects');
+    }
+
+    public function contacts()
+    {
+        return view('about.contacts');
+    }
+
 }

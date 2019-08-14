@@ -26,3 +26,25 @@
      });
 
  }
+
+  $( document ).ready(function() {
+
+
+
+    var mainScreen = $( '#main' ),
+        height = $( '#main' ).height(),
+        width = $( '#main' ).width()
+        
+        
+        $('<div>', {
+            id: 'bar',
+            width:'50px',
+            height:'150px',
+            class: 'bars'
+        }).appendTo(mainScreen);
+
+   alert(width + " x " + height);
+
+  // mainScreen.css({"background-color": "#ffe"});
+  
+});

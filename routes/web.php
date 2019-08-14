@@ -16,3 +16,6 @@
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about', 'AboutController@index')->name('about');
+Route::get('/projects', 'AboutController@projects')->name('projects');
+Route::get('/contacts', 'AboutController@contacts')->name('contacts');
+Route::get('/more', 'MoreController@more')->name('more');

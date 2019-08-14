@@ -189,5 +189,21 @@ content1 {
     background: url('../images/sidebar_image.svg') no-repeat center/160px 160px;
 }
 
+div #main{
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    background-color: aqua;
+}
 
+div #main #footer{
+    position: relative;
+    background-color:blueviolet;
+    height: 40px;
+    top:260px;
+    
+}
+div #main .bars{
+    background-color: blue;
+}
 /*# sourceMappingURL=nav.css.map */
