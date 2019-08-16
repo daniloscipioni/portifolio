@@ -40,5 +40,5 @@
             class: 'bars'
         }).appendTo(mainScreen);
   
-        $('#bar').fadeIn(1500);
+        $('#bar1').fadeIn(1500);
  };
