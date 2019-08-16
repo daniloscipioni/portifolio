@@ -34,7 +34,7 @@
         
         
         $('<div>', {
-            id: 'bar',
+            id: 'bar1',
             width:'50px',
             height:'150px',
             class: 'bars'
