@@ -35,10 +35,10 @@
         
         $('<div>', {
             id: 'bar',
-            width:'50px',
+            width:'200px',
             height:'150px',
             class: 'bars'
+           
         }).appendTo(mainScreen);
-  
-        $('#bar').fadeIn(1500);
+   
  };
